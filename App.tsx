@@ -1,20 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import { ThemeProvider } from "styled-components";
+import theme from "./src/global/styles/theme";
+import { Welcome } from "./src/pages/Welcome";
+import { Home } from "./src/pages/Home";
+import { ScrollView } from "react-native";
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ThemeProvider theme={theme}>
+      <ScrollView>
+      <Welcome/>
+      <Home/>
+      </ScrollView>
+      
+    </ThemeProvider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
