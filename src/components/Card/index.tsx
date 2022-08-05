@@ -1,6 +1,6 @@
 import React from 'react'
 import { Image, Text} from 'react-native'
-import { Avatar, CharName, Container, ContentGender, ContentGenderAndOrigin, ContentHeaderCard, ContentImage, ContentText, Gender, Origin, Specie } from './styles'
+import { Avatar, CharName, Container, ContentGenderAndOrigin, ContentHeaderCard, ContentImage, ContentText, Gender, Origin, Specie } from './styles'
 
 export const Card = ({character}:any) => {
   return (

@@ -8,8 +8,14 @@ import { Container,
 import { Button } from "../../components/Button";
 import AnimatedLottieView from "lottie-react-native";
 import morty from './morty.json'
+import { useNavigation } from "@react-navigation/native";
 
 export function Welcome(){
+    const {navigate} = useNavigation()
+    function handleNavigation(){
+       navigate('Home')
+    }
+
     return(
         <Container>
             <Content>
@@ -21,7 +27,7 @@ export function Welcome(){
                 </WrapperText>
             </Content>
             <Footer>
-            <Button title="Iniciar" />
+            <Button title="Iniciar"  onPress={handleNavigation}/>
             </Footer>
         </Container>
     )
