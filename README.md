@@ -2,7 +2,7 @@
 <img align="center" src="banner.png">
 
 ## Descrição do projeto. 📝
-<p align="center">App desenvolvido para fins educacionais. Nele aprendi sobre a criação de Components, ReactNative Hooks, Animações com a lib Lottie e navegação entre telas usando o React Navigation.</p>
+<p>App desenvolvido para fins educacionais. Nele aprendi sobre a criação de Components, ReactNative Hooks, Animações com a lib Lottie e navegação entre telas usando o React Navigation.</p>
 
 ## Features ⚙ 
 - [x] Tela de Welcome.
