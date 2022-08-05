@@ -11,7 +11,7 @@
 - [x] Tela de Home.
 - [x] Consumo da API.
 - [x] Listagem dos personagens.
-- [ ] Tela com informações detalhadas do personagem que usuário clickar.
+- [ ] Tela com informações detalhadas do personagem que o usuário clickar.
 
 ## Demonstração da aplicação 🤳
 
