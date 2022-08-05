@@ -17,10 +17,10 @@
 
 <img align="center" src="demogif.gif">
 
-### Link page desktop
+## Projeto em sua versão web 💻
 
 ## https://resonant-sherbet-ed40a2.netlify.app
 
-### Link repositório
+### Link do repositório versão web 💻
 
 ## https://github.com/samuelrms/Rick-and-Morty-cards
