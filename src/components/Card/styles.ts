@@ -1,6 +1,6 @@
 import styled , {css} from "styled-components/native";
 
-export const Container = styled.View`
+export const Container = styled.TouchableOpacity `
     ${({theme}) => css`
         background-color: ${theme.colors.purple};
         border-radius: 20px;

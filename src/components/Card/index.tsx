@@ -1,10 +1,15 @@
 import React from 'react'
 import { Image, Text} from 'react-native'
 import { Avatar, CharName, Container, ContentGenderAndOrigin, ContentHeaderCard, ContentImage, ContentText, Gender, Origin, Specie } from './styles'
+import { useNavigation } from "@react-navigation/native";
 
 export const Card = ({character}:any) => {
+  const {navigate} = useNavigation()
+  function handleNavigation(){
+     navigate('Character')
+  }
   return (
-    <Container>
+    <Container onPress={handleNavigation}>
     <ContentText>
         <ContentHeaderCard>
         <CharName>{character.name}</CharName>

@@ -46,7 +46,7 @@ export function Home() {
         ) : (
           <ScrollView showsVerticalScrollIndicator={false}>
             {character.map((item, i) => {
-              return <Card character={item} key={i} />;
+              return <Card character={item} key={i}/>;
             })}
           </ScrollView>
         )}
