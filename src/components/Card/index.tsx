@@ -3,13 +3,16 @@ import { Image, Text} from 'react-native'
 import { Avatar, CharName, Container, ContentGenderAndOrigin, ContentHeaderCard, ContentImage, ContentText, Gender, Origin, Specie } from './styles'
 import { useNavigation } from "@react-navigation/native";
 
-export const Card = ({character}:any) => {
+export const Card = ({character, navigation}:any) => {
   const {navigate} = useNavigation()
-  function handleNavigation(){
-     navigate('Character')
+  const handleNavigation = ()=>{
+     navigate('Character', {person:character} )
   }
+  // console.log("ID", id);
+
   return (
-    <Container onPress={handleNavigation}>
+    <>
+    <Container onPress={()=>{ navigation.navigate('Character', {person:JSON.stringify(character)})}}>
     <ContentText>
         <ContentHeaderCard>
         <CharName>{character.name}</CharName>
@@ -24,5 +27,6 @@ export const Card = ({character}:any) => {
         <Avatar source={{uri: character.image}}/>
     </ContentImage>
     </Container>
+    </>
   )
 }
