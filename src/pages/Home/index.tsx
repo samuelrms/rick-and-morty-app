@@ -15,7 +15,7 @@ import LottieView from "lottie-react-native";
 import animateloading from "./loading.json";
 import AnimatedLottieView from "lottie-react-native";
 
-export function Home() {
+export function Home({navigation}) {
   const [character, setCharacter] = useState([]);
   const [loading, setLoading] = useState<Boolean>(true);
 
@@ -46,7 +46,7 @@ export function Home() {
         ) : (
           <ScrollView showsVerticalScrollIndicator={false}>
             {character.map((item, i) => {
-              return <Card character={item} key={i}/>;
+              return <Card navigation={navigation} character={item} key={i}/>;
             })}
           </ScrollView>
         )}

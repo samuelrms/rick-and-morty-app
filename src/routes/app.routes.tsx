@@ -6,7 +6,7 @@ import { Welcome } from "../pages/Welcome";
 
 const Stack = createNativeStackNavigator()
 
-export function AppRoutes () {
+export function AppRoutes ({routes}) {
     return <Stack.Navigator screenOptions={{headerShown: false}}>
         <Stack.Screen name="Welcome" component={Welcome}/>
         <Stack.Screen name="Home" component={Home}/>
