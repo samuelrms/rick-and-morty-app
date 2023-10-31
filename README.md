@@ -1,8 +1,9 @@
 # Em construção 🏗
-<img align="center" src="banner.png">
+![image](https://github.com/samuelrms/rick-and-morty-app/assets/92615688/ee44f07d-cd64-4d5a-a951-d2b45b168932)
+
 
 ## Descrição do projeto. 📝
-<p>App desenvolvido para fins educacionais. Nele aprendi sobre a criação de Components, ReactNative Hooks, Animações com a lib Lottie e navegação entre telas usando o React Navigation.</p>
+### App desenvolvido para fins educacionais. Nele aprendi sobre a criação de Components, ReactNative Hooks, Animações com a lib Lottie e navegação entre telas usando o React Navigation.
 
 ## Features ⚙ 
 - [x] Tela de Welcome.
@@ -15,12 +16,12 @@
 
 ## Demonstração da aplicação 🤳
 
-<img align="center" src="demogif.gif">
+![image](https://raw.githubusercontent.com/samuelrms/rick-and-morty-app/main/demogif.gif)
 
 ## Projeto em sua versão web 💻
 
-## https://resonant-sherbet-ed40a2.netlify.app
+## [https://resonant-sherbet-ed40a2.netlify.app](https://resonant-sherbet-ed40a2.netlify.app)
 
 ### Link do repositório versão web 💻
 
-## https://github.com/samuelrms/Rick-and-Morty-cards
+## [https://github.com/samuelrms/Rick-and-Morty-cards](https://github.com/samuelrms/Rick-and-Morty-cards)
